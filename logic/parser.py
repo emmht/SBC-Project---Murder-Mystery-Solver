@@ -14,7 +14,6 @@ def load_puzzle(filepath):
 
 
 def load_all_puzzles(folder="puzzles"):
-    # 🔥 asta e cheia
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     folder_path = os.path.join(base_dir, folder)
 
