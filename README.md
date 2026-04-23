@@ -1,5 +1,4 @@
 # SBC-Project---Murder-Mystery-Solver
-# SBC Project - Murder Mystery Solver
 
 ## Descriere
 Acest proiect implementează un sistem capabil să rezolve puzzle-uri de tip murder mystery.
