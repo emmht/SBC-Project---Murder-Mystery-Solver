@@ -1,0 +1,20 @@
+{
+  "title": "Crima din Tren",
+  "description": "Un pasager a fost ucis intr-un tren. Determina cine este criminalul.",
+  "suspects": ["Detectivul", "Artistul", "Doctorul"],
+  "rooms": ["Vagon1", "Vagon2", "VagonRestaurant"],
+  "weapons": ["Cutit", "Pistol", "Otrava"],
+  "clues": [
+    "Detectivul nu era in Vagon1",
+    "Artistul era in VagonRestaurant",
+    "Persoana din Vagon2 avea Pistol",
+    "Doctorul nu avea Cutit",
+    "Crima nu a avut loc in VagonRestaurant",
+    "Crima nu s-a facut cu Pistol"
+  ],
+  "solution": {
+    "criminal": "Doctorul",
+    "room": "Vagon1",
+    "weapon": "Otrava"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Crima din Muzeu",
+  "description": "Un paznic a fost gasit mort. Descopera cine este criminalul, unde si cu ce arma.",
+  "suspects": ["Oana", "Paul", "Radu"],
+  "rooms": ["Galerie", "Birou", "Depozit"],
+  "weapons": ["Pistol", "Cutit", "Franghie"],
+  "clues": [
+    "Paul era in Birou",
+    "Persoana din Birou avea Cutit",
+    "Radu nu era in Galerie",
+    "Radu nu avea Pistol",
+    "Crima nu a avut loc in Birou",
+    "Crima nu s-a facut cu Franghie"
+  ],
+  "solution": {
+    "criminal": "Oana",
+    "room": "Galerie",
+    "weapon": "Pistol"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Crima din Hotel",
+  "description": "Un turist a fost gasit mort intr-un hotel.",
+  "suspects": ["Receptionerul", "Turistul", "Menajera"],
+  "rooms": ["Camera", "Hol", "Receptie"],
+  "weapons": ["Cutit", "Otrava", "Franghie"],
+  "clues": [
+    "Receptionerul nu era in Camera",
+    "Menajera era in Hol",
+    "Persoana din Camera avea Cutit",
+    "Turistul nu avea Otrava",
+    "Crima nu a avut loc in Hol",
+    "Crima nu a avut loc in Receptie",
+    "Crima nu s-a facut cu Franghie"
+  ],
+  "solution": {
+    "criminal": "Turistul",
+    "room": "Camera",
+    "weapon": "Cutit"
+  }
+}

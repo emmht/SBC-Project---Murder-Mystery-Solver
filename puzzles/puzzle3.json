@@ -1,0 +1,21 @@
+{
+  "title": "Crima din Hotel",
+  "description": "Un oaspete a fost ucis. Identifica vinovatul, locul crimei si arma folosita.",
+  "suspects": ["George", "Horia", "Irina"],
+  "rooms": ["Hol", "Restaurant", "Camera101"],
+  "weapons": ["Cutit", "Franghie", "Otrava"],
+  "clues": [
+    "Horia era in Restaurant",
+    "Persoana din Restaurant avea Franghie",
+    "George nu era in Camera101",
+    "George nu avea Otrava",
+    "Crima nu a avut loc in Restaurant",
+    "Crima nu s-a facut cu Franghie",
+    "Crima nu a avut loc in Hol"
+  ],
+  "solution": {
+    "criminal": "Irina",
+    "room": "Camera101",
+    "weapon": "Otrava"
+  }
+}

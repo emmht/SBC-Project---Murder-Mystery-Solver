@@ -1,0 +1,20 @@
+{
+  "title": "Crima din Teatru",
+  "description": "Un actor a fost ucis in culise.",
+  "suspects": ["Actorul", "Regizorul", "Tehnicianul"],
+  "rooms": ["Scena", "Culise", "Cabina"],
+  "weapons": ["Franghie", "Cutit", "Pistol"],
+  "clues": [
+    "Regizorul nu era in Culise",
+    "Tehnicianul era in Cabina",
+    "Persoana din Scena avea Franghie",
+    "Actorul nu avea Pistol",
+    "Crima nu a avut loc in Cabina",
+    "Crima nu s-a facut cu Franghie"
+  ],
+  "solution": {
+    "criminal": "Actorul",
+    "room": "Culise",
+    "weapon": "Cutit"
+  }
+}

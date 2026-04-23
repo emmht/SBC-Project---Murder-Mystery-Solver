@@ -1,0 +1,20 @@
+{
+  "title": "Crima din Laborator",
+  "description": "Un cercetator a fost gasit mort intr-un laborator.",
+  "suspects": ["Biologul", "Chimistul", "Fizicianul"],
+  "rooms": ["Lab1", "Lab2", "Depozit"],
+  "weapons": ["Otrava", "Laser", "Cutit"],
+  "clues": [
+    "Biologul era in Depozit",
+    "Chimistul nu era in Lab2",
+    "Persoana din Lab2 avea Laser",
+    "Biologul avea Cutit",
+    "Crima nu a avut loc in Depozit",
+    "Crima nu s-a facut cu Laser"
+  ],
+  "solution": {
+    "criminal": "Chimistul",
+    "room": "Lab1",
+    "weapon": "Otrava"
+  }
+}

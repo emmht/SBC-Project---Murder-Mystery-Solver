@@ -1,0 +1,20 @@
+{
+  "title": "Crima din Vila",
+  "description": "Foloseste indiciile pentru a afla cine a comis crima, unde si cu ce arma.",
+  "suspects": ["Dan", "Elena", "Florin"],
+  "rooms": ["Baie", "Salon", "Dormitor"],
+  "weapons": ["Franghie", "Pistol", "Topor"],
+  "clues": [
+    "Dan era in Baie",
+    "Florin era in Dormitor",
+    "Persoana din Dormitor avea Topor",
+    "Elena nu avea Franghie",
+    "Crima nu a avut loc in Baie",
+    "Crima nu s-a facut cu Topor"
+  ],
+  "solution": {
+    "criminal": "Elena",
+    "room": "Salon",
+    "weapon": "Pistol"
+  }
+}

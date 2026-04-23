@@ -1,0 +1,21 @@
+{
+  "title": "Crima din Biblioteca",
+  "description": "Descopera cine este criminalul, in ce camera a avut loc crima si cu ce arma.",
+  "suspects": ["Ana", "Bogdan", "Carmen"],
+  "rooms": ["Bucatarie", "Biblioteca", "Garaj"],
+  "weapons": ["Cutit", "Pistol", "Otrava"],
+  "clues": [
+    "Bogdan era in Garaj",
+    "Persoana din Garaj avea Pistol",
+    "Ana nu era in Biblioteca",
+    "Ana nu avea Otrava",
+    "Crima nu a avut loc in Garaj",
+    "Crima nu a avut loc in Bucatarie",
+    "Crima nu s-a facut cu Pistol"
+  ],
+  "solution": {
+    "criminal": "Carmen",
+    "room": "Biblioteca",
+    "weapon": "Otrava"
+  }
+}

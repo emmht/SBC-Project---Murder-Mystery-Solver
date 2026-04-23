@@ -1,0 +1,20 @@
+{
+  "title": "Crima din Castel",
+  "description": "Afla cine a comis crima in castel, unde s-a petrecut si cu ce arma.",
+  "suspects": ["Ioana", "Mihai", "Nina"],
+  "rooms": ["SalaMare", "Turn", "Subsol"],
+  "weapons": ["Sabie", "Topor", "Otrava"],
+  "clues": [
+    "Nina nu era in Turn",
+    "Mihai nu era in SalaMare",
+    "Mihai avea Topor",
+    "Ioana nu avea Otrava",
+    "Crima nu a avut loc in Turn",
+    "Crima nu s-a facut cu Sabie"
+  ],
+  "solution": {
+    "criminal": "Nina",
+    "room": "Subsol",
+    "weapon": "Otrava"
+  }
+}
